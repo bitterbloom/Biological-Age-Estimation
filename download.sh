@@ -13,5 +13,5 @@ fi
 cd ../
 if [ ! -f Model_Age.pth ]; then
     wget https://www.dropbox.com/s/ijoirmbwdf7orcf/Model_Age.pth?dl=1
-    mv Model_Age.pth\?dl\=0 ./Model_Age.pth
+    mv Model_Age.pth\?dl\=1 ./Model_Age.pth
 fi
