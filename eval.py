@@ -89,7 +89,7 @@ if __name__=='__main__':
 
     test_loader = get_data(batch_size)
 
-    model_ft = torch.load('Age_lr_0.01_resnet.pth')
+    model_ft = torch.load('Model_Age.pth')
     # Send the model to GPU
     model_ft = model_ft.to(device)
     test(test_loader,model_ft)
